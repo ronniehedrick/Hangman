@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="bg">
+    </div>
+    <div id="header">
+      <h1>Hangman</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <br/>
+          <h2 id="attempts"></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2 id="win"></h2>
+          <h2 id="loss"></h2>
+        </div>
+        <div class="col-md-8">
+          <h2>Dead Letters: </h2><h3 id="used"></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="main_game" class="text-center">
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="word">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript/game.js">
+    </script>    
+  </body>
+</html>

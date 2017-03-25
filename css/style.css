@@ -1,0 +1,100 @@
+body {
+    font-family: "Acme", serif;
+    color: #d1d3d5;
+}
+
+h1 {
+    font-size: 3.66667em;
+}
+
+h3 {
+    color: #d1d3d5;
+}
+
+h2 {
+    color: #FFFFFF;
+}
+
+h2 a {
+    color: #d1d3d5;
+}
+
+h2 a:hover {
+    color: #38ad58;
+}
+
+#win {
+    color: #38ad58;
+    font-size: 3.2em;
+}
+
+#loss {
+    color: #c9aa71;
+    font-size: 3.2em;
+}
+
+#bg {
+    position: absolute;
+    width: 100%;
+    min-width: 1000px;
+    height: 1080px;
+    z-index: -10;
+    background-color: black;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg.jpg);
+    top: 0;
+}
+
+#header {
+    background: transparent url("../images/header.jpg") no-repeat top center;
+    position: relative;
+    height: 222px;
+    margin: 0 auto;
+    min-width: 1000px;
+    z-index: 8;
+    top: 20px;
+    margin-bottom: 60px;
+}
+
+#header h1 {
+    text-align: center;
+    padding: 100px;
+    float: none;
+    clear: left;
+    margin: 0;
+    font-size: 12.26667em;
+    background-image: none;
+    color: red;
+}
+
+#attempts {
+    color: #38ad58;
+    height: 50px;
+    font-size: 50px;
+}
+
+#used {
+    font-size: 3.26667em;
+}
+
+#my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    display: block;
+    font-size: 3.8em;
+}
+
+#my-word li {
+    position: relative;
+    list-style: none;
+    margin: 5px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#word img {
+    max-width: 100%;
+    max-height: 100%;
+}
